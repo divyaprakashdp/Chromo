@@ -1,0 +1,84 @@
+body {
+    background-image: url('https://source.unsplash.com/daily?dark');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-size: 3.5em;
+}
+
+.container {
+    font-family: 'Caveat', sans-serif;
+    color: #aae2e9;
+    text-align: center;
+}
+
+#time {
+    font-size: 2.5em;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.todo {
+    margin-top: 10px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#todo-input {
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+}
+
+#greeting {
+    margin: 0 auto;
+}
+
+#task {
+    margin: 0 auto;
+    display: block;
+    font-size: inherit;
+    width: 50%;
+    background: none;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+input:focus {
+    outline: none;
+}
+
+span:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffff;
+    text-align: center;
+}
+
+#userName {
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    width: 5em;
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    color: #ffffff;
+}
+
+#todoItems {
+    display: inline-block;
+}
+
+.leftPanel{
+    position: fixed;
+    top: 10%;
+    left: 1%;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}

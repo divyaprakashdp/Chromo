@@ -1,0 +1,11 @@
+{
+    "name": "Chromo",
+    "version": "1.0",
+    "description": "Productivity extension",
+    "manifest_version": 3,
+    "author": "divya_Prakash",
+    "chrome_url_overrides": {
+        "newtab": "homepage.html"
+    },
+    "action": {"default_title": "Welcome!"}
+}
