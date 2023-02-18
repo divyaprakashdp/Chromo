@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momentum App</title>
+    <title>Chromo</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,10 @@
 
 <body>
     <div class="container">
-        <h1 id="time"></h1>
+        <div>
+            <h1 id="time"></h1>
+        </div>
+        
         <div id="greeting">Good evening,
             <span id="userName" contenteditable="true">name</span>
         </div>
@@ -26,14 +29,16 @@
             <span id='todo-input' contenteditable="true">Enter task for today</span>
             <i class="fa fa-trash" id="deleteTask" disabled=true onclick="deleteTask()"></i>
         </div>
+        <div class="leftPanel">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/1NaP8H1CYoSODDURHfcx9P?utm_source=generator" width="70%"
+                height="65%" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
     </div>
-    <div class="leftPanel">
-        
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1NaP8H1CYoSODDURHfcx9P?utm_source=generator" width="20%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
-    </div>
-    <script src='script.js'></script>
     
+    <script src='script.js'></script>
+
 </body>
 
 </html>

@@ -29,8 +29,10 @@ function startTime() {
 startTime();
 
 todoInput.addEventListener("keypress", function onEvent(event) {
+    let todoId = 1
     if (event.key === 'Enter') {
         localStorage.setItem('todo', `${todoInput.innerHTML}`);
+        document.body.appendChild(`${<span id={todoId++} contenteditable="true">Enter task for today</span>}`);
         todoInput.setAttribute("contenteditable", "false");
         todoInput.innerHTML = localStorage.getItem('todo');
         todoInput.style.border = 0;
@@ -140,4 +142,6 @@ function swapClass() {
     }
 };
 
-// document.getElementById("squarebox").addEventListener("click", swapClass);
+function addNewTodo(){
+
+}
