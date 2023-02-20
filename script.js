@@ -32,7 +32,7 @@ todoInput.addEventListener("keypress", function onEvent(event) {
     let todoId = 1
     if (event.key === 'Enter') {
         localStorage.setItem('todo', `${todoInput.innerHTML}`);
-        document.body.appendChild(`${<span id={todoId++} contenteditable="true">Enter task for today</span>}`);
+        // document.body.appendChild(`${<span id={todoId++} contenteditable="true">Enter task for today</span>}`);
         todoInput.setAttribute("contenteditable", "false");
         todoInput.innerHTML = localStorage.getItem('todo');
         todoInput.style.border = 0;
@@ -122,7 +122,7 @@ function deleteTask() {
     localStorage.removeItem('todo');
     todoInput.innerHTML = 'Enter task for today';
     todoInput.setAttribute('contenteditable', 'true');
-    todoInput.style.border = 0;
+    todoInput.style.border = "border-bottom: 2px solid #ffffff";
 }
 document.getElementById("deleteTask").addEventListener("click", deleteTask);
 
