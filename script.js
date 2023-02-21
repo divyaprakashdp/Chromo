@@ -142,6 +142,7 @@ function swapClass() {
     }
 };
 
-function addNewTodo(){
-
-}
+// function getBookmarks(){
+    
+// }
+// getBookmarks()
