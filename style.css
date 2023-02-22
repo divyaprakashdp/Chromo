@@ -75,7 +75,7 @@ input::placeholder {
     display: inline-block;
 }
 
-.leftPanel{
+.leftPanel {
     position: absolute;
     top: 10%;
     left: -0.5%;
@@ -85,64 +85,80 @@ input::placeholder {
     transition: all 0.5s ease;
 }
 
-  p {
+p {
     text-align: center;
-  }
-  .flip-clock-wrapper{
+}
+
+.flip-clock-wrapper {
     max-width: 460px;
     margin: 3em auto 2em;
     display: flex;
     justify-content: center;
-  }
-  .col-md-4{
+}
+
+.col-md-4 {
     display: flex;
     justify-content: center;
-  }
-  .col-md-2{
+}
+
+.col-md-2 {
     display: flex;
     justify-content: center;
     height: 34px;
     align-items: center;
-  }
-  .counter{
+}
+
+.counter {
     display: flex;
     justify-content: center;
-  }
-  .clock{
+}
+
+.clock {
     margin-top: 30px;
-  }
-  .container {
+}
+
+.container {
     width: 500px;
-  }
-  .middle{
-      display:inline-block;
-  }
-  #btns{
+}
+
+.middle {
+    display: inline-block;
+}
+
+#btns {
     display: flex;
     justify-content: center;
-  }
-  #stop {
+}
+
+#stop {
     margin-left: 10px;
     margin-right: 10px;
-  }
-  .btn {
-    background-color: #333333;
-    color: #CCCCCC;
-  }
-  #sessInc, #sessDec, #breakInc, #breakDec {  
+}
+
+.btn {
+    background-color: #021c23;
+    color: #afeffb;
+}
+
+#sessInc,
+#sessDec,
+#breakInc,
+#breakDec {
     font-weight: bold;
-  }
-  #stats {
-    background-color: #333333;
+}
+
+#stats {
+    background-color: #b3e4ee;
     width: 220px;
-    height: 70px;  
+    height: 70px;
     border-radius: 10px;
-    color: #CCCCCC;
+    color: #010d12;
     font-size: 45px;
     text-align: center;
-  }
-  #statRow {
+}
+
+#statRow {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-  }
+}
